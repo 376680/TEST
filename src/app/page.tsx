@@ -286,7 +286,7 @@ function Header() {
             className="flex items-center gap-3 no-underline group"
           >
             <img
-              src="/mouse-logo.png"
+              src="/TEST/mouse-logo.png"
               alt="小鼠帝国总务管理局"
               className="h-10 w-10 object-contain"
             />
@@ -682,7 +682,7 @@ function Footer() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <img
-                src="/mouse-logo.png"
+                src="/TEST/mouse-logo.png"
                 alt="小鼠帝国总务管理局"
                 className="h-8 w-8 object-contain brightness-0 invert opacity-90"
               />

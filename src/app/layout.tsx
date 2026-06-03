@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   keywords: ["小鼠帝国", "政府网站", "政务服务", "小鼠帝国总务管理局"],
   authors: [{ name: "小鼠帝国总务管理局" }],
   icons: {
-    icon: "/mouse-logo.png",
+    icon: "/TEST/mouse-logo.png",
   },
   openGraph: {
     title: "小鼠帝国政府网 - 官方门户网站",
