@@ -381,30 +381,18 @@ function HeroSection() {
 
   return (
     <section className="relative">
-      {/* Banner image */}
-      <div className="relative w-full h-[260px] sm:h-[340px] md:h-[420px] overflow-hidden">
-        <img
-          src="/banner.png"
-          alt="小鼠帝国总务管理局"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0f2340]/75 via-[#1a365d]/50 to-transparent" />
-      </div>
-
-      {/* Welcome box overlay */}
-      <div className="max-w-[1200px] mx-auto px-4 relative -mt-[200px] sm:-mt-[260px] md:-mt-[320px] z-10">
+      {/* Welcome box */}
+      <div className="max-w-[1200px] mx-auto px-4 pt-8 pb-8">
         <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 pb-8">
-          <div className="lg:w-[52%] text-white">
+          <div className="lg:w-[52%] text-[#1b1b1b]">
             <h1 className="text-2xl sm:text-3xl md:text-[40px] font-extrabold mb-4 leading-tight">
               小鼠帝国总务管理局
             </h1>
-            <p className="text-lg sm:text-xl text-white/95 font-medium mb-2">
-              让官僚主义变得前所未有的便捷
+            <p className="text-lg sm:text-xl text-[#1b1b1b]/95 font-medium mb-2">
+              The best place to find government services and information
             </p>
-            <p className="text-sm sm:text-base text-white/80 leading-relaxed">
-              小鼠帝国警务署网站现已遭到美国政府单方面恶意封禁，
-              域名被美国联邦机构非法劫持并展示所谓 &quot;查封页面&quot;。
-              这是霸权主义对国际虚拟主权的粗暴干涉，是典型的政治迫害。
+            <p className="text-sm sm:text-base text-[#1b1b1b]/80 leading-relaxed">
+              我们郑重承诺：我们什么也不承诺
             </p>
           </div>
 
@@ -445,7 +433,7 @@ function HeroSection() {
         </div>
       </div>
 
-      {/* Blue gradient separator */}
+      {/* Section separator */}
       <div className="bg-gradient-to-b from-[#0f2340] to-[#e8f4f8] h-12" />
     </section>
   )
